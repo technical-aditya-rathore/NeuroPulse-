@@ -39,6 +39,7 @@ Canvas API: For high-frame-rate visual rendering.
  ------------------------------------------------------------------------------------------
 Plaintext
 NEURO-PULSE-OS/
+
 ├── index.html   # Core application structure
 
 ├── style.css    # Futuristic UI & Responsive styles
@@ -74,4 +75,5 @@ Concept: Cybernetic Neural Interface
  License
  ------------------------------------------------------------------------------------------
 © 2026 NEURO-PULSE PROJECT. All rights reserved. 
+
 
