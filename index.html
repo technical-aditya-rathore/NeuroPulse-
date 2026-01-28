@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NEURO-PULSE OS // ADI MASTAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="crt-overlay"></div>
+    
+    <header>
+        <div class="brand">
+            <span class="glitch-text">NEURO-PULSE</span>
+            <span class="tagline">BY ADI MASTAN</span>
+        </div>
+        <div id="sys-status" class="status-box">SYSTEM: STANDBY</div>
+    </header>
+
+    <main class="app-container">
+        <nav class="glass-sidebar">
+            <div class="control-section">
+                <h3>AUDIO INPUT</h3>
+                <div class="btn-grid">
+                    <button class="btn-glow" id="micBtn">MIC LINK</button>
+                    <button class="btn-glow" onclick="document.getElementById('audioFile').click()">UPLOAD</button>
+                </div>
+                <input type="file" id="audioFile" accept="audio/*" hidden>
+            </div>
+
+            <div class="control-section">
+                <h3>VISUAL CALIBRATION</h3>
+                <div class="input-wrap">
+                    <label>SENSITIVITY</label>
+                    <input type="range" id="sens" min="1" max="10" step="0.5" value="3">
+                </div>
+                <div class="input-wrap">
+                    <label>RENDER MODE</label>
+                    <select id="visualMode">
+                        <option value="radial">NEURAL RADIAL</option>
+                        <option value="linear">LINEAR SPECTRUM</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="btn-grid">
+                <button id="recordBtn" class="btn-record">REC START</button>
+                <button id="killBtn" class="btn-danger">TERMINATE</button>
+            </div>
+        </nav>
+
+        <section class="visualizer-stage">
+            <canvas id="mainCanvas"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Copyright2026 NEURO-PULSE  | Designed & Developed by <span class="highlight">Adi Mastan</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
