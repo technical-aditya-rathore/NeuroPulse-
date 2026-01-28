@@ -1,7 +1,7 @@
 ﻿# NeuroPulse-
  
  ------------------------------------------------------------------------------------------
-NEURO-PULSE OS is a cutting-edge, futuristic web-based audio visualizer designed for high-performance sound analysis and creative media capture. Developed with a focus on Cybernetic Aesthetics and Neural synchronization, it allows users to transform ambient sound or music files into a holographic light show.
+NEURO-PULSE  is a cutting-edge, futuristic web-based audio visualizer designed for high-performance sound analysis and creative media capture. Developed with a focus on Cybernetic Aesthetics and Neural synchronization, it allows users to transform ambient sound or music files into a holographic light show.
 
  Features
  ------------------------------------------------------------------------------------------
@@ -75,5 +75,6 @@ Concept: Cybernetic Neural Interface
  License
  ------------------------------------------------------------------------------------------
 © 2026 NEURO-PULSE PROJECT. All rights reserved. 
+
 
 
